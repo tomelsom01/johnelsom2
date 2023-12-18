@@ -1,0 +1,2 @@
+module MauiHelper
+end

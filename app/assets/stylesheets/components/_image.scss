@@ -1,0 +1,84 @@
+.img_size{
+  width: 15%;
+  height: 15%;
+}
+
+.img_size_m{
+  width: 5%;
+}
+
+.plays_image_s{
+  width: 25vw;
+  height: 25vh;
+  object-fit: contain;
+}
+
+.playsimage{
+  width: 100%;
+  height: 15vh;
+  object-fit: contain;
+}
+
+.plays_image_m{
+  width: 50vw;
+  height: 50vh;
+  object-fit: contain;
+}
+
+.img_size_l{
+  width: 15vw;
+  height: 25vh;
+}
+
+.image-large{
+  width: 50vh;
+}
+
+.img-banner{
+  width: 100vw;
+  height: 60vh;
+}
+
+.img_test{
+  width: 35vw;
+  height: 60vh;
+}
+
+.posterimagel{
+  width: 50vh;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.posterimages{
+  width: 15vh;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pushback{
+  z-index: 1;
+}
+
+.journalimage{
+  width: 100%;
+  height: 47vh;
+}
+
+.roundimage{
+  border-radius: 50%;
+}
+
+
+.aboutimagesmall {
+  float: left;
+  margin: 5px;
+  width: 20vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.text-content {
+  text-align: justify;
+  font-size: 20px;
+}

@@ -1,0 +1,2 @@
+class StateofparalysisController < ApplicationController
+end

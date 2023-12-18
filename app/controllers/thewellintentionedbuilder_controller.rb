@@ -1,0 +1,2 @@
+class ThewellintentionedbuilderController < ApplicationController
+end

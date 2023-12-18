@@ -1,0 +1,642 @@
+.cards {
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  display: flex;
+  justify-content: center;
+}
+.playscards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  align-items: stretch;
+}
+
+
+.cards2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.season_cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.cards3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 45px;
+}
+
+.cardsbooks{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.cardsarticles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.journalismcardslayout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding: 2em;
+
+  /* Centering */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  /* Add the drop shadow */
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+}
+
+.wid50{
+  width: 50vh;
+}
+
+.cardsdis{
+  display: flex; /* Use flexbox for layout */
+  align-items: center;
+}
+.cardhead{
+  border: 5px solid red;
+  }
+  .redborder {
+    border: 10px solid red !important;
+    color: red;
+  }
+
+
+.img-container {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+}
+
+
+.tealign{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.setposition{
+  position: relative;
+  padding-top: 2%;
+}
+
+.cardbackground2{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+}
+
+.cardbackground3{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: black;
+}
+
+.text_white{
+  color: white;
+}
+
+.vids{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.profile-card-2 {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.profile-card-2 img {
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #FFF;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: #FFF;
+  font-size: 13px;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+  margin: 5px;
+}
+
+.profile-card-2:hover img {
+  filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+  bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+  bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+  right: 40px;
+}
+
+.play-center{
+  border: 1px solid red;
+  margin: 20px;
+  color: white;
+  position: relative;
+  top: -10%;
+  left: 150%;
+}
+
+.friendlistitem{
+  display: flex;
+  padding: 1rem;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+}
+
+.friendcard{
+  color: white;
+  background-color: black;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.friendimage{
+  position: relative;
+  max-height: 250px;
+}
+
+.friendimage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.friendcard_content{
+  position: relative;
+  padding: 16px 12px 32px 24px;
+  margin: 16px 8px 8px 0;
+
+}
+
+
+.cardbox{
+  position: relative;
+}
+.cardmovementL{
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cardmovementR{
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.maincenter{
+  display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take up full height of the viewport */
+    text-align: center; /* Center text content */
+}
+
+.boxdisplay{
+  text-decoration: none;
+  transition: box-shadow .5s;
+  width: 20vw; /* Adjust card width with vw unit */
+  margin: 1vw; /* Add margin using vw unit */
+  padding: 1vw; /* Add padding using vw unit */
+}
+
+.boxdisplay2{
+  text-decoration: none;
+  transition: box-shadow .5s;
+  width: 20vw; /* Adjust card width with vw unit */
+  margin: 1vw; /* Add margin using vw unit */
+}
+
+.boxdisplay a:link {
+  text-decoration-color: white;
+}
+
+.textdisplay a:link{
+  text-decoration-color: white;
+}
+
+.boxdisplay:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.containerCustom{
+    height: 50%;
+    width: 40%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.rounded-iframe {
+  border-radius: 15px; /* Adjust the value to control the degree of rounding */
+  overflow: hidden; /* Ensure content within the rounded corners is hidden */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theoffgreybox{
+  background-color: #f2f2f2; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.theredbox{
+  background-color: #cf5b5b; /* Off-grey background color */
+  border-radius: 5px;
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.thebluebox{
+  background-color: #add8e6; /* Off-grey background color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+
+
+.thegreenbox{
+  background-color: #93e487; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.thepeachbox{
+  background-color: #e998ed; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+
+.theyellowbox{
+  background-color: #f2f2f2; /* Off-grey background color */
+  border-radius: 10prgb(221, 235, 153);
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+.redcard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#cf5b5b;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.bluecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#add8e6;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greencard{
+    position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color:#93e487;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.peachcard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#e998ed;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.yellowcard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(234, 237, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orangecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(237, 210, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.purplecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(214, 152, 237);;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.turquoisecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(119, 214, 195);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.purpleraincard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(122, 119, 214);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jcard{
+    position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color:rgb(237, 210, 152);
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+}
+
+.songforjccard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(237, 210, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.poemcontainer{
+  width: 50%; /* Adjust the width as needed */
+    overflow-y: scroll;
+    max-height: 380px; /* Set a maximum height for scrollability */
+    margin-left: 10px;
+}
+
+.nobordercard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.playcard{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.playscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playcard .card-img-top {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 300%;
+}
+
+.playcard .card-body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+@media (min-width: 1200px) {
+  .cardbackground3 {
+    width: 70vw;
+
+  }
+}
+
+
+  @media(max-width: 991px){
+    .cards{
+      display: flex;
+      flex-direction: column; /* Change the direction to column for vertical stacking */
+      justify-content: center;
+      grid-gap: 1px;
+    }
+    .cardsbooks{
+      display: grid;
+      grid-template-columns: 1fr;
+      flex-direction: column; /* Change the direction to column for vertical stacking */
+      justify-content: center;
+      grid-gap: 1px;
+
+    }
+    .boxdisplay {
+      width: 80%;
+      margin: 1vw auto;
+    }
+    .boxdisplay2 {
+      width: 80%;
+      margin: 1vw auto;
+    }
+    .playscards{
+      display: grid;
+      grid-template-columns: 1fr;
+      flex-direction: column; /* Change the direction to column for vertical stacking */
+      justify-content: center;
+      grid-gap: 1px;
+
+    }
+    .journalismcardslayout{
+      display: grid;
+      grid-template-columns: 1fr;
+      flex-direction: column; /* Change the direction to column for vertical stacking */
+      justify-content: center;
+      grid-gap: 1px;
+    }
+
+  }

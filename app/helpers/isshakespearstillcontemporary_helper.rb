@@ -1,0 +1,2 @@
+module IsshakespearstillcontemporaryHelper
+end

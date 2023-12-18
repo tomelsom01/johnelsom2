@@ -70,3 +70,13 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+
+
+gem 'bootstrap', '~> 5.0.0'
+gem 'popper_js', '~> 2.11.6'
+gem 'jquery-rails'
+gem "simple_form"
+gem "dotenv-rails"
+gem "cloudinary"
+gem 'sassc', '~> 2.4'

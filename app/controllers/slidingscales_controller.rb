@@ -1,0 +1,2 @@
+class SlidingscalesController < ApplicationController
+end

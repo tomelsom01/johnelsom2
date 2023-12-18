@@ -1,0 +1,2 @@
+class NfixedabodeController < ApplicationController
+end

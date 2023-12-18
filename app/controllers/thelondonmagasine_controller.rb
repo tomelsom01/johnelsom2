@@ -1,0 +1,2 @@
+class ThelondonmagasineController < ApplicationController
+end

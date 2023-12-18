@@ -1,0 +1,2 @@
+class MauiController < ApplicationController
+end

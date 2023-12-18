@@ -1,0 +1,2 @@
+class OnemorebullsController < ApplicationController
+end

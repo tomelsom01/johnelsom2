@@ -1,0 +1,2 @@
+class ColdwartheatreController < ApplicationController
+end

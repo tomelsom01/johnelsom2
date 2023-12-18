@@ -1,0 +1,120 @@
+<div class="booksbackground">
+  <div class="headingplacement">
+
+    <h1 class="size3 textwhite">Books</h1>
+    <div>
+      <h3 class="size5 textwhite">"The voice of reason in a deluded world"</h3><cite class="size5 textwhite"> - John Pick Emeritus Professor Gresham College London<cite>
+    </div>
+  </div>
+</div>
+<div class="pt-5">
+
+
+  <div class="text-center">
+    <div class="headgap headingplacement2">
+      <h2 class="size5"><strong><u>Currently Online</u></strong></h2>
+    </div>
+    <div class="cards">
+
+      <%= link_to worldwithoutworship_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("world_without_worship_cover.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">World Without Worship</p>
+
+        </div>
+      <% end %>
+
+       <%= link_to bigdada_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("big_dada_cover.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Big Dada</p>
+          <p class="card-title d-flex justify-content-center textdisplay sizebooks">And the Paradiseville Experience</p>
+
+        </div>
+      <% end %>
+
+      <%= link_to slidingscales_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("sliding_scales_Cover.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Sliding Scales</p>
+          <p class="card-text  d-flex justify-content-center textdisplay sizebooks">A relative history of now</p>
+
+        </div>
+      <% end %>
+
+    </div>
+    <div class="headgap headingplacement2">
+      <h2 class="size5"><strong><u>Published in print</u></strong></h2>
+    </div>
+    <div class="cardsbooks">
+
+       <%= link_to theatreoutsidelondon_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+
+          <%= cl_image_tag("theatreoutsidelondon_dbyylf", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Theatre Outside London</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">Macmillan, 1971</cite>
+        </div>
+      <% end %>
+
+      <%= link_to erotictheatre_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+
+        <div>
+          <%= image_tag("trialerotictheatre.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Erotic Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">- Secker, 1972 -</cite>
+
+        </div>
+      <% end %>
+
+       <%= link_to postwarbritishtheatre_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= cl_image_tag("postwarbritishtheatrepart3_fti1rd", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Post-War British Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay1 sizebooks">- Routledge, 1976, 1980 and re-issued 2014 -</cite>
+        </div>
+      <% end %>
+
+      <%= link_to thehistoryofthenationaltheatre_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("historyofnat.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay2 pt-1 sizebooks">The History of the The National Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">- Cape, 1978 -</cite>
+        </div>
+      <% end %>
+
+      <%= link_to coldwartheatre_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("coldwartheatre.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Cold War Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay1 sizebooks">- Routledge, 1992, and re-issued 2014 -</cite>
+       </div>
+      <% end %>
+
+      <%= link_to isshakespearestillourcontemporary_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("isshakespearestillcontemporary.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay2 pt-1 sizebooks">Is Shakespeare Still Our Contemporary</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">- Routledge, 1989 -</cite>
+        </div>
+      <% end %>
+
+      <%= link_to missingthepoint_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("missingthepoint.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Missing the Point</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">- The Lutterworth Press, 2007 -</cite>
+        </div>
+      <% end %>
+
+      <%= link_to stateofparalysis_path, class:"boxdisplay", style: "text-decoration: none;" do %>
+        <div>
+          <%= image_tag("stateofparalysis.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">State of Paralysis</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay sizebooks">- The Lutterworth Press, 2019 -</cite>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>

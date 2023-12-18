@@ -1,0 +1,2 @@
+class YourshireController < ApplicationController
+end

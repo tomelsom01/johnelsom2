@@ -1,0 +1,2 @@
+class ErotictheatreController < ApplicationController
+end

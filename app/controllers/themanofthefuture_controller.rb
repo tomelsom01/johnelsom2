@@ -1,0 +1,2 @@
+class ThemanofthefutureController < ApplicationController
+end

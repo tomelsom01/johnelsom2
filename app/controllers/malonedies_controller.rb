@@ -1,0 +1,2 @@
+class MalonediesController < ApplicationController
+end

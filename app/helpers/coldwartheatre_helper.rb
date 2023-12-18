@@ -1,0 +1,2 @@
+module ColdwartheatreHelper
+end

@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <div>
+        <%= link_to "John Elsom", root_path, class: "navbar-logo" %>
+    </div>
+    <div class="clickme" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto navbarlinks">
+            <li class="nav-item">
+                <%= link_to "Books", books_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Plays", plays_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Journalism", journalism_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "About", about_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Contact me", emailform_path, class: "nav-link" %>
+            </li>
+        </ul>
+    </div>
+</nav>
+

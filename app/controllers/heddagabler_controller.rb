@@ -1,0 +1,2 @@
+class HeddagablerController < ApplicationController
+end

@@ -1,0 +1,2 @@
+module ContreviewHelper
+end

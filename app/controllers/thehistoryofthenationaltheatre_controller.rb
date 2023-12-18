@@ -1,0 +1,2 @@
+class ThehistoryofthenationaltheatreController < ApplicationController
+end

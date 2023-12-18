@@ -1,0 +1,2 @@
+class OldboysController < ApplicationController
+end

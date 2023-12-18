@@ -1,0 +1,2 @@
+class ContreviewController < ApplicationController
+end

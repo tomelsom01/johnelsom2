@@ -1,0 +1,2 @@
+class IsshakespearstillcontemporaryController < ApplicationController
+end

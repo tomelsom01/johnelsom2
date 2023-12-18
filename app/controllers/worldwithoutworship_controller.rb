@@ -1,0 +1,2 @@
+class WorldwithoutworshipController < ApplicationController
+end

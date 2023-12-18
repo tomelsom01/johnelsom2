@@ -1,0 +1,2 @@
+class PostwarbritishtheatresController < ApplicationController
+end

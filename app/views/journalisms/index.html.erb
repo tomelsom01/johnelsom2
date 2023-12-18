@@ -1,0 +1,80 @@
+<div class="journalbackground mb-3">
+  <div class="headingplacement">
+    <h1 class="textblack size3">Journalism</h1>
+    <h3 class="textblack size5">‘…the first rough draft of history.’ </h3><cite class="textblack size5">Philip L. Graham, former Washington Post President</cite>
+  </div>
+</div>
+
+<div class="headgap headingplacement2">
+  <h2 class="size5"><strong><u>Currently Online</u></strong></h2>
+</div>
+
+<div class="journalismcardslayout headingplacement2">
+
+  <%= link_to worldandi_path, style: "text-decoration: none;" do %>
+    <div class="card boxdisplay2">
+      <%= cl_image_tag("W_I2fit_g5slvo", class: "journalimage") %>
+      <div class="card-body">
+        <p class="card-title textblack2 sizebooks text-center">Arts Editor and Columnist (IATC/AICT World President)</p>
+        <p class="card-text textblack2 sizebooks text-center cite2">THE WORLD & I 1987-2004</p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to thelondonmag_path, style: "text-decoration: none;" do %>
+  <div class="card boxdisplay2" >
+    <%= cl_image_tag("LM1fit_pkx12v", class: "journalimage") %>
+      <div class="card-body">
+      <p class="card-title textblack2 sizebooks text-center">Arts Essayist, and theatre critic (Talent scout for Paramount Pictures)</p>
+        <p class="cite2 card-text textblack2 sizebooks text-center">THE LONDON MAGAZINE 1963-70</p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to contreview_path, style: "text-decoration: none;" do %>
+    <div class="card boxdisplay2" >
+       <%= cl_image_tag("CR_1fit_bfvw4c", class: "journalimage") %>
+      <div class="card-body">
+        <p class="card-title textblack2 sizebooks text-center">Writer on politics and travel (Special advisor on the arts and broadcasting to the Liberal Party and the LibDems.)</p>
+        <p class="cite2 card-text textblack2 sizebooks text-center">CONTEMPORARY REVIEW 1978-93</p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to "https://#{"yorkshirebylines.co.uk/politics/clearing-out-the-attic-why-our-political-system-needs-a-complete-re-think/"}", style: "text-decoration: none;" do %>
+    <div class="card boxdisplay2" >
+      <%= image_tag("political-system1.jpg", class: "journalimage") %>
+      <div class="card-body">
+        <p class="card-title textblack2 sizebooks text-center">Contributor to the Bylines Network</p>
+        <p class="card-text textblack2 sizebooks cite2 text-center">Yorkshire Bylines</p>
+      </div>
+    </div>
+  <% end %>
+</div>
+  <div class="headgap headingplacement2">
+    <h2 class="size5"><strong><u>Other Publications</u></strong></h2>
+  </div>
+<div class="journalismcardslayout headingplacement2">
+  <%= link_to thelistener_path, style: "text-decoration: none;" do %>
+    <div class="card boxdisplay2" >
+      <%= image_tag("List_Web034.jpg", class: "journalimage") %>
+      <div class="card-body">
+        <p class="card-title textblack2 sizebooks text-center">Theatre critic (regular broadcaster for the BBC’s Home and World Services)</p>
+        <p class="card-text textblack2 sizebooks text-center cite2">THE LISTENER 1972-82 </p>
+      </div>
+    </div>
+  <% end %>
+
+   <%= link_to nfixabode_path, style: "text-decoration: none;" do %>
+    <div class="card boxdisplay2" >
+      <%= image_tag("NFA2.jpg", class: "journalimage") %>
+      <div class="card-body">
+        <p class="card-title textblack2 sizebooks text-center">Free-lance arts columnist for international magazines (Convenor and rapporteur of IATC/AICT theatre conferences)</p>
+        <p class="card-text textblack2 sizebooks text-center cite2">Assieg del Teatro (Barcelona)</p>
+      </div>
+    </div>
+  <% end %>
+
+
+
+</div>

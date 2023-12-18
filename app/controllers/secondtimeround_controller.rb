@@ -1,0 +1,2 @@
+class SecondtimeroundController < ApplicationController
+end

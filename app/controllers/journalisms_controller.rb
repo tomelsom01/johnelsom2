@@ -1,0 +1,2 @@
+class JournalismsController < ApplicationController
+end
