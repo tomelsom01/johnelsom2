@@ -58,110 +58,110 @@ background-color: #daad86;
 }
 
 .plantingtreeimg {
-background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('young-tree-shoot.jpg');
-background-size: cover; /* or background-size: contain; */
-background-repeat: no-repeat;
-background-position: bottom right; /* Adjust as needed */
-height: 100%;
-width: 100%;
-color: black;
-text-shadow: #FFFFFF;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('young-tree-shoot.jpg');
+  background-size: fill; /* or background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: bottom right; /* Adjust as needed */
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-shadow: none;
 }
 
 
 .curtainsbackground{
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('curtains.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 100%;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('curtains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 
 .paleorangebackground{
-background-color:rgba(255, 213, 128, 0.5) ;
-height: 100%;
+  background-color:rgba(255, 213, 128, 0.5) ;
+  height: 100%;
 }
 
 .deeporangebackground{
-background-color: rgba(255,179,71, 0.5);
-height: 100%;
+  background-color: rgba(255,179,71, 0.5);
+  height: 100%;
 }
 
 .deepchestnut{
-background-color: rgba(185,78,72, 0.5);
-height: 100%;
+  background-color: rgba(185,78,72, 0.5);
+  height: 100%;
 }
 
 .skyblue{
-background-color:  rgba(135,206,235,0.5);
-height: 100%;
+  background-color:  rgba(135,206,235,0.5);
+  height: 100%;
 }
 
 .lightgreybackground{
-background-color: rgba(211,211,211,0.5);
-height: 100%;
+  background-color: rgba(211,211,211,0.5);
+  height: 100%;
 }
 
 .sagebackground{
-background-color: rgba(188,184,138,0.5);
-height: 100%;
+  background-color: rgba(188,184,138,0.5);
+  height: 100%;
 }
 
 .deepskyblue{
-background-color: rgba(0,191,255,0.5);
-height: 100%;
+  background-color: rgba(0,191,255,0.5);
+  height: 100%;
 }
 
 .journalbackground{
-background-image: url("https://res.cloudinary.com/daaxwngzv/image/upload/v1696439195/oak_leaves_d5n6v3.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 40vh;
-width: 100vw;
+  background-image: url("https://res.cloudinary.com/daaxwngzv/image/upload/v1696439195/oak_leaves_d5n6v3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40vh;
+  width: 100vw;
 }
 
 .aboutbackground{
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 40vh;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40vh;
+  width: 100%;
 }
 
 .contactformbackground{
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('forestbackground.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 100vh;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('forestbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
 }
 
 
 
 .fillerbackground{
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 100%;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 
 .friendsandfamilybackground{
-background-image: cl_image_tag("pine-trees_dcadtu");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 100%;
-width: 100%;
+  background-image: cl_image_tag("pine-trees_dcadtu");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 
 .oldboybottom{
-padding-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 .peacemakerbackground{
@@ -177,121 +177,113 @@ padding-bottom: 10%;
 }
 .mauibackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('maui3.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 50vh;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('maui3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50vh;
+  width: 100%;
 
 
 }
 .onemorebullbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://res.cloudinary.com/daaxwngzv/image/upload/v1697655829/One_More_Bull036_bamstr.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 90vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://res.cloudinary.com/daaxwngzv/image/upload/v1697655829/One_More_Bull036_bamstr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  width: 100%;
 
 }
 
 .wellintentionedbuilderbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("thewellintentionbuilder_edited.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 50vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("thewellintentionbuilder_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50vh;
+  width: 100%;
 
 }
 
 .malonediesbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("melonedies01_edited.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 60vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("melonedies01_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+  width: 100%;
 
 }
 
 .heddagablerbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("heddagabler02.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-
-height: 55vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("heddagabler02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
 
 }
 
 .themanofthefutureisdeadbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("ukraine_wong-2.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 50vh;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("ukraine_wong-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
 
 
 }
 
 .secondtimeroundbackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("STR1_edited.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 50vh;
-width: 100%;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("STR1_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
 
 
 }
 
 .oldboybackground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("Old_Boy_edited.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-
-height: 40vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("Old_Boy_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
 
 }
 
 .worldwithinground{
 
-background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("worldwithin.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 45vh;
-width: 100%;
-
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("worldwithin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 45vh;
+  width: 100%;
 
 }
+
 .containernohorizscroll {
-padding-top: 1vw;
-padding-right: 1vw;
-padding-left: 1vw;
-margin-right: auto;
-margin-left: auto;
-overflow-x: hidden;
+  padding-top: 1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
 
 }
 @media (min-width: 1200px) {
-.booksbackground {
-  width: 100%; /* Reduce the width of the container */
+  .booksbackground {
+    width: 100%; /* Reduce the width of the container */
 
-}
-
+  }
 }

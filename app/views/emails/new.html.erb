@@ -1,0 +1,17 @@
+<!-- app/views/email/new.html.erb -->
+
+<h1>Contact Form</h1>
+
+<%= simple_form_for(@email) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name, label: "Full Name", placeholder: "John Doe" %>
+    <%= f.input :email, label: "Email", placeholder: "john@example.com" %>
+    <%= f.input :message, label: "Message", as: :text, placeholder: "Type your message here..." %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Send Email" %>
+  </div>
+<% end %>

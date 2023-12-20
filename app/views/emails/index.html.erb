@@ -1,0 +1,13 @@
+<!-- app/views/email/index.html.erb -->
+
+<h1>Email List</h1>
+
+<% @email.each do |e| %>
+  <p><strong>Name:</strong> <%= e.name %></p>
+  <p><strong>Email:</strong> <%= e.email %></p>
+  <p><strong>Message:</strong> <%= e.message %></p>
+  <!-- Add other fields as needed -->
+  <hr>
+<% end %>
+
+<%= link_to "New Email", new_email_path %>
