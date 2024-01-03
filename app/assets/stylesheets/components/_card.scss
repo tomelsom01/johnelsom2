@@ -639,4 +639,31 @@
       grid-gap: 1px;
     }
 
+    .cardsdis{
+      display: grid; /* Use flexbox for layout */
+      grid-template-columns: 1fr;
+      flex-direction: column;
+    }
+
+    .img-container{
+      width: 100%; /* Ensure full width on smaller screens */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text-container{
+      width: 100%; /* Ensure full width on smaller screens */
+      justify-content: center;
+      align-items: center;
+    }
+    .textcenteronsmallerscreens{
+      display: flex;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .videoforsmallerscreen{
+      padding-top: 1rem;
+    }
+
   }

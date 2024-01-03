@@ -15,6 +15,9 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
+# Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
+gem "jsbundling-rails"
+
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
@@ -48,10 +51,6 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
-end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
@@ -76,7 +75,25 @@ end
 gem 'bootstrap', '~> 5.0.0'
 gem 'popper_js', '~> 2.11.6'
 gem 'jquery-rails'
-gem "simple_form"
-gem "dotenv-rails"
-gem "cloudinary"
 gem 'sassc', '~> 2.4'
+
+
+gem "autoprefixer-rails"
+gem "font-awesome-sass", "~> 6.1"
+gem "simple_form", github: "heartcombo/simple_form"
+group :development, :test do
+  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "dotenv-rails"
+
+end
+
+
+#for image display
+
+gem "cloudinary"
+
+
+# sending emails
+
+gem "mail_form"

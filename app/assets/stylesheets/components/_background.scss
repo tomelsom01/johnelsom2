@@ -200,7 +200,7 @@ background-color: #daad86;
 .wellintentionedbuilderbackground{
 
   background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("thewellintentionbuilder_edited.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   height: 50vh;
@@ -286,4 +286,20 @@ background-color: #daad86;
     width: 100%; /* Reduce the width of the container */
 
   }
+}
+@media(max-width: 991px){
+  .wellintentionedbuilderbackground{
+    background-size: contain;
+  }
+  .secondtimeroundbackground{
+    background-position: center center;
+  }
+  .oldboybackground{
+    background-position: center right;
+  }
+  .heddagablerbackground{
+    background-position: center center;
+  }
+
+
 }
